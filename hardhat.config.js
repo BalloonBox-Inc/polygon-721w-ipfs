@@ -22,7 +22,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 module.exports = {
   defaultNetwork: "matic", //hardhat
   networks: {
-    // hardhat: {},
+    hardhat: {},
     matic: {
       url: "https://matic-mumbai.chainstacklabs.com/",
       accounts: [PRIVATE_KEY],
